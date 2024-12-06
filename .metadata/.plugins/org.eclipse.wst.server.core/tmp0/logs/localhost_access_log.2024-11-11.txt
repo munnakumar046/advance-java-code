@@ -1,0 +1,8 @@
+127.0.0.1 - - [11/Nov/2024:01:01:47 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [11/Nov/2024:01:01:48 +0530] "GET /CalculatorApp/ HTTP/1.1" 200 1526
+0:0:0:0:0:0:0:1 - - [11/Nov/2024:01:01:49 +0530] "GET /CalculatorApp/style.css HTTP/1.1" 200 1129
+0:0:0:0:0:0:0:1 - - [11/Nov/2024:01:01:49 +0530] "GET /CalculatorApp/script.js HTTP/1.1" 200 767
+0:0:0:0:0:0:0:1 - - [11/Nov/2024:01:02:01 +0530] "GET /CalculatorApp/ HTTP/1.1" 200 1526
+0:0:0:0:0:0:0:1 - - [11/Nov/2024:01:02:01 +0530] "GET /CalculatorApp/style.css HTTP/1.1" 200 1129
+0:0:0:0:0:0:0:1 - - [11/Nov/2024:01:02:01 +0530] "GET /CalculatorApp/script.js HTTP/1.1" 200 767
+0:0:0:0:0:0:0:1 - - [11/Nov/2024:01:02:01 +0530] "GET /favicon.ico HTTP/1.1" 404 762

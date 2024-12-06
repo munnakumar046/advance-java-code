@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="validation.js"></script>
+</head>
+
+<body>
+    <div>
+        <form action="DatabaseServlet" method="post" onsubmit="return validate()">
+            <label for="name">UserName</label>
+            <input type="text" id="name" name="name" placeholder="Your username.." required />
+
+            <label for="pwd">Password</label>
+            <input type="password" id="pwd" name="pwd" placeholder="Your password.." required />
+
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" name="phone" placeholder="Your phone.." required />
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Your email.." required />
+
+            <label for="country">Country</label>
+            <select id="country" name="country" required>
+                <option value="">none</option>
+                <option value="Australia">Australia</option>
+                <option value="India">India</option>
+                <option value="Nepal">Nepal</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="Canada">Canada</option>
+                <option value="USA">USA</option>
+            </select>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>
